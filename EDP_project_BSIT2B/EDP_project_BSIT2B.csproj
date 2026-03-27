@@ -63,6 +63,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -71,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -84,6 +88,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-logo-lock-real-estate-design-symbol-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-logo-lock-real-estate-design-symbol-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="key-logo-lock-real-estate-design-symbol-vector.jpg" />
+    <None Include="Resources\alarm-clock-logo-icon-vector.jpg" />
+    <None Include="Resources\profile-icon-user-icon-person-icon-free-png.png" />
+    <None Include="Resources\pngtree-community-care-logo-human-group-communication-vector-png-image_39726032.png" />
+    <None Include="Resources\education-book-logo-template-vector-illustration.jpg" />
+    <None Include="Resources\Online-shop-shopping-shop-logo-by-DEEMKA-STUDIO-31.jpg" />
+    <None Include="Resources\Online-shop-shopping-shop-logo-by-DEEMKA-STUDIO-3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

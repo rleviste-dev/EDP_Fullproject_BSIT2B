@@ -8,3 +8,14 @@ C:\Users\Useer\source\repos\EDP_project_BSIT2B\EDP_project_BSIT2B\bin\Debug\EDP_
 C:\Users\Useer\source\repos\EDP_project_BSIT2B\EDP_project_BSIT2B\bin\Debug\EDP_project_BSIT2B.pdb
 C:\Users\Useer\source\repos\EDP_project_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.exe
 C:\Users\Useer\source\repos\EDP_project_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.pdb
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\bin\Debug\EDP_project_BSIT2B.exe.config
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\bin\Debug\EDP_project_BSIT2B.exe
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\bin\Debug\EDP_project_BSIT2B.pdb
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.csproj.AssemblyReference.cache
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.Form1.resources
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.frmHome.resources
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.Properties.Resources.resources
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.csproj.GenerateResource.cache
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.csproj.CoreCompileInputs.cache
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.exe
+C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.pdb
