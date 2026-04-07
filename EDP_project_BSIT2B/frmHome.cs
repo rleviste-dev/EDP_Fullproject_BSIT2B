@@ -19,12 +19,70 @@ namespace EDP_project_BSIT2B
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            frmRegister reg = new frmRegister();
+            this.Hide();
+            reg.Show();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmHome_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnStoreStatus_Click(object sender, EventArgs e)
+        {
+            frmStoreStatus store = new frmStoreStatus();
+            this.Hide();
+            store.Show();
+        }
+
+        private void btnPricebook_Click(object sender, EventArgs e)
+        {
+            frmPricebook price = new frmPricebook();
+            this.Hide();
+            price.Show();
+        }
+
+        private void btnVendors_Click(object sender, EventArgs e)
+        {
+            frmVendors vendors = new frmVendors();
+            this.Hide(); 
+            vendors.Show();
+        }
+
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            frmUsers users = new frmUsers();
+            this.Hide();
+            users.Show();
+        }
+
+        private void btnTimeCheck_Click(object sender, EventArgs e)
+        {
+            frmTimeClock time = new frmTimeClock();
+            this.Hide();
+            time.Show();
+           
         }
     }
 }

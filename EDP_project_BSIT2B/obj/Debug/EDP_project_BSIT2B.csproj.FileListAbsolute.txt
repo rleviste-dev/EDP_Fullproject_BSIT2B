@@ -19,3 +19,21 @@ C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_p
 C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.csproj.CoreCompileInputs.cache
 C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.exe
 C:\Users\Useer\source\repos\ConsoleApp2\ConsoleApp2\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.pdb
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\bin\Debug\EDP_project_BSIT2B.exe.config
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\bin\Debug\EDP_project_BSIT2B.exe
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\bin\Debug\EDP_project_BSIT2B.pdb
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.csproj.AssemblyReference.cache
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.exe.config
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.Form1.resources
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.frmHome.resources
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.Properties.Resources.resources
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.csproj.GenerateResource.cache
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.csproj.CoreCompileInputs.cache
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.exe
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.pdb
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.frmRegister.resources
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.frmStoreStatus.resources
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.frmPricebook.resources
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.frmVendors.resources
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.frmUsers.resources
+C:\Users\COLLEGE STUDENT\Source\Repos\EDP_Fullproject_BSIT2B\EDP_project_BSIT2B\obj\Debug\EDP_project_BSIT2B.frmTimeClock.resources

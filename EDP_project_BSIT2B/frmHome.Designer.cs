@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnStoreStatus = new System.Windows.Forms.Button();
+            this.btnPricebook = new System.Windows.Forms.Button();
+            this.btnVendors = new System.Windows.Forms.Button();
+            this.btnUsers = new System.Windows.Forms.Button();
+            this.btnTimeCheck = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -55,55 +55,60 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
+            // btnStoreStatus
             // 
-            this.button2.Location = new System.Drawing.Point(249, 23);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(249, 158);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnStoreStatus.Location = new System.Drawing.Point(249, 23);
+            this.btnStoreStatus.Name = "btnStoreStatus";
+            this.btnStoreStatus.Size = new System.Drawing.Size(249, 158);
+            this.btnStoreStatus.TabIndex = 1;
+            this.btnStoreStatus.UseVisualStyleBackColor = true;
+            this.btnStoreStatus.Click += new System.EventHandler(this.btnStoreStatus_Click);
             // 
-            // button3
+            // btnPricebook
             // 
-            this.button3.Location = new System.Drawing.Point(513, 23);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(260, 158);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPricebook.Location = new System.Drawing.Point(513, 23);
+            this.btnPricebook.Name = "btnPricebook";
+            this.btnPricebook.Size = new System.Drawing.Size(260, 158);
+            this.btnPricebook.TabIndex = 2;
+            this.btnPricebook.UseVisualStyleBackColor = true;
+            this.btnPricebook.Click += new System.EventHandler(this.btnPricebook_Click);
             // 
-            // button4
+            // btnVendors
             // 
-            this.button4.Location = new System.Drawing.Point(12, 202);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(217, 195);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnVendors.Location = new System.Drawing.Point(12, 202);
+            this.btnVendors.Name = "btnVendors";
+            this.btnVendors.Size = new System.Drawing.Size(217, 195);
+            this.btnVendors.TabIndex = 3;
+            this.btnVendors.UseVisualStyleBackColor = true;
+            this.btnVendors.Click += new System.EventHandler(this.btnVendors_Click);
             // 
-            // button5
+            // btnUsers
             // 
-            this.button5.Location = new System.Drawing.Point(249, 202);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(249, 195);
-            this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnUsers.Location = new System.Drawing.Point(249, 202);
+            this.btnUsers.Name = "btnUsers";
+            this.btnUsers.Size = new System.Drawing.Size(249, 195);
+            this.btnUsers.TabIndex = 4;
+            this.btnUsers.UseVisualStyleBackColor = true;
+            this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
             // 
-            // button6
+            // btnTimeCheck
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(513, 202);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(260, 195);
-            this.button6.TabIndex = 5;
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnTimeCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimeCheck.Location = new System.Drawing.Point(513, 202);
+            this.btnTimeCheck.Name = "btnTimeCheck";
+            this.btnTimeCheck.Size = new System.Drawing.Size(260, 195);
+            this.btnTimeCheck.TabIndex = 5;
+            this.btnTimeCheck.UseVisualStyleBackColor = true;
+            this.btnTimeCheck.Click += new System.EventHandler(this.btnTimeCheck_Click);
             // 
-            // button1
+            // btnRegister
             // 
-            this.button1.Location = new System.Drawing.Point(12, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(221, 158);
-            this.button1.TabIndex = 12;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnRegister.Location = new System.Drawing.Point(12, 23);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(221, 158);
+            this.btnRegister.TabIndex = 12;
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -114,6 +119,7 @@
             this.label2.Size = new System.Drawing.Size(54, 13);
             this.label2.TabIndex = 20;
             this.label2.Text = "Register";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -159,7 +165,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(630, 358);
+            this.label7.Location = new System.Drawing.Point(605, 358);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 13);
             this.label7.TabIndex = 25;
@@ -174,6 +180,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 19;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
@@ -215,6 +222,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -254,15 +262,16 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnTimeCheck);
+            this.Controls.Add(this.btnUsers);
+            this.Controls.Add(this.btnVendors);
+            this.Controls.Add(this.btnPricebook);
+            this.Controls.Add(this.btnStoreStatus);
             this.Name = "frmHome";
             this.Text = "frmHome";
+            this.Load += new System.EventHandler(this.frmHome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -275,13 +284,13 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnStoreStatus;
+        private System.Windows.Forms.Button btnPricebook;
+        private System.Windows.Forms.Button btnVendors;
+        private System.Windows.Forms.Button btnUsers;
+        private System.Windows.Forms.Button btnTimeCheck;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
