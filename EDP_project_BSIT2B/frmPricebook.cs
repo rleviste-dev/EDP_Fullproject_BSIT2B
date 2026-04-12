@@ -12,14 +12,17 @@ namespace EDP_project_BSIT2B
 {
     public partial class frmPricebook : Form
     {
-        public frmPricebook()
+        private Form _home;
+
+        public frmPricebook(Form home)
         {
             InitializeComponent();
+            _home = home;
         }
 
-        private void Form4_Load(object sender, EventArgs e)
+        private void frmPricebook_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            _home.Show();
         }
     }
 }

@@ -10,11 +10,20 @@ using System.Windows.Forms;
 
 namespace EDP_project_BSIT2B
 {
-    public partial class frmRegister : Form
+    public partial class frmVendors : Form
     {
-        public frmRegister()
+        private Form _home;
+
+        public frmVendors(Form home)
         {
             InitializeComponent();
+            _home = home;
+
+        }
+
+        private void frmVendors_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            _home.Show();
         }
     }
 }

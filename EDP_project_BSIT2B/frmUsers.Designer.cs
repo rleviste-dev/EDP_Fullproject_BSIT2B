@@ -1,6 +1,6 @@
 ﻿namespace EDP_project_BSIT2B
 {
-    partial class frmRegister
+    partial class frmUsers
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // frmRegister
+            // frmUsers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "frmRegister";
-            this.Text = "Form2";
+            this.Name = "frmUsers";
+            this.Text = "Users";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmUsers_FormClosing);
             this.ResumeLayout(false);
 
         }

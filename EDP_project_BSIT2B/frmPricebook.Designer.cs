@@ -1,6 +1,6 @@
 ﻿namespace EDP_project_BSIT2B
 {
-    partial class frmTimeClock
+    partial class frmPricebook
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,15 @@
         {
             this.SuspendLayout();
             // 
-            // frmTimeClock
+            // frmPricebook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "frmTimeClock";
-            this.Text = "Form7";
+            this.Name = "frmPricebook";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Pricebook";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmPricebook_FormClosing);
             this.ResumeLayout(false);
 
         }

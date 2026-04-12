@@ -1,6 +1,6 @@
 ﻿namespace EDP_project_BSIT2B
 {
-    partial class frmVendors
+    partial class frmStoreStatus
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,15 @@
         {
             this.SuspendLayout();
             // 
-            // frmVendors
+            // frmStoreStatus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "frmVendors";
-            this.Text = "Form5";
+            this.Name = "frmStoreStatus";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "StoreStatus";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmStoreStatus_FormClosing);
             this.ResumeLayout(false);
 
         }

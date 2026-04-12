@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace EDP_project_BSIT2B
 {
-    public partial class frmTimeClock : Form
+    public partial class frmStoreStatus : Form
     {
-        public frmTimeClock()
+        private Form _home;
+
+        public frmStoreStatus(Form home)
         {
             InitializeComponent();
+            _home = home;
+        }
+
+        private void frmStoreStatus_FormClosing(object sender, FormClosedEventArgs e)
+        {
+            _home.Show();
         }
     }
 }
