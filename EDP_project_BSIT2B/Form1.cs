@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace EDP_project_BSIT2B
 {
@@ -37,30 +39,29 @@ namespace EDP_project_BSIT2B
             }
             else
             {
-                bool isValid = false;
+                DataTable dt = db.ExecuteReturnQuery("select * from tblLoginCredentials where user_username = @uname and user_password = @pword",
+                    new MySqlParameter("@uname",tbUsername.Text),
+                    new MySqlParameter("@pword",tbPassword.Text));
 
-                for (int x = 0; x < userCredentials.GetLength(0); x++)
-                {
-                    if (tbUsername.Text == userCredentials[x, 0] &&
-                        tbPassword.Text == userCredentials[x, 1])
-                    {
-                        frmHome frm = new frmHome();
-                        MessageBox.Show("Welcome " + userCredentials[x, 2]);
-
-                        this.Hide();
-                        frm.Show();
-
-                        isValid = true;
-                        break;
-                    }
-                }
-
-                if (!isValid)
-                {
-                    MessageBox.Show("Invalid Username/Password");
+                if (dt.Rows.Count==1) {
+                    frmHome frm = new frmHome();
+                    this.Hide();
+                    frm.Show();
                 }
             }
         }
+        MyDatabase db = new MyDatabase();
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if (db.TestConnection() == true)
+            {
+                MessageBox.Show("connected successfully");
+            }
+            else
+            { MessageBox.Show("AYAW"); }
+
+        }
+        
     }
 }
 
