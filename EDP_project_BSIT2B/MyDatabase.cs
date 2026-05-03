@@ -12,7 +12,7 @@ namespace EDP_project_BSIT2B
     internal class MyDatabase
     {
 
-        string connectionString = "Server=localhost;Port=3306;Database='leviste_db';Uid='root';Pwd=''";
+        string connectionString = "Server=localhost;Port=3306;Database='leviste_db';Uid='root';Pwd='';Allow User Variables=True;AllowBatch=True";
 
 
 
